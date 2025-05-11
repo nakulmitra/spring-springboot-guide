@@ -11,6 +11,7 @@ A comprehensive guide to Spring and Spring Boot for learning and interview prepa
 - Spring Boot
 - Interview Questions
 
+```
 spring-springboot-guide/
 │
 ├── README.md
@@ -56,7 +57,7 @@ spring-springboot-guide/
     ├── common-annotations.md
     ├── bean-scopes.md
     └── top-50-questions.md
-
+```
 
 ## Key Topics to Include
 
