@@ -30,6 +30,32 @@ public class UserService {
         this.repository = repository;
     }
 }
-````
+```
 
 > Constructor injection is preferred for mandatory dependencies and immutability.
+
+### Field Injection (Not recommended)
+
+```java
+@Component
+public class OrderService {
+    private OrderRepository repository;
+
+    @Autowired
+    public void setRepository(OrderRepository repository) {
+        this.repository = repository;
+    }
+}
+```
+
+### Example: Constructor Injection
+
+```java
+@Component
+public class OrderService {
+    @Autowired
+    private OrderRepository repository;
+}
+```
+
+> Field injection is not ideal for unit testing and immutability.
