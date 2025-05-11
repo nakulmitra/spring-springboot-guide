@@ -48,7 +48,7 @@ public class OrderService {
 }
 ```
 
-### Example: Constructor Injection
+### Example: Field Injection (Not recommended)
 
 ```java
 @Component
